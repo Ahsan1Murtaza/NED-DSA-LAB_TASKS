@@ -1,0 +1,15 @@
+(Standard QuickSort)
+Worst on nearly sorted data
+Because pivot choice makes extremely unbalanced partitions
+Can degrade to O(n²)
+
+(Randomized QuickSort)
+Avoids worst-case by randomizing pivot
+Usually close to O(n log n)
+But still not optimal for nearly sorted data
+
+Merge Sort (especially linked list version)
+Always O(n log n)
+Independent of data order
+Best for linked lists + nearly sorted data
+No extra memory for linked lists
